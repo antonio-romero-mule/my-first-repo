@@ -27,7 +27,7 @@
 		</xsl:variable>
 		<xsl:if test="$display = 'common' or $display = 'all'">
 			<xsl:choose>
-				<xsl:when test="/xsd:schema/xsd:annotation/xsd:appinfo/schemadoc:page-title">h1. 
+				<xsl:when test="/xsd:schema/xsd:annotation/xsd:appinfo/schemadoc:page-title">h5. 
 					<xsl:value-of select="/xsd:schema/xsd:annotation/xsd:appinfo/schemadoc:page-title"/>
 					
 					----
